@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  height: 40px;
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li a {
+  display: block;
+  height: 40px;
+  background: #495e57;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
