@@ -19,13 +19,11 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  background: #333;
-  padding: 0 20px;
 }
 
 /* Header */
 header {
-  background: #333;
+
   padding: 10px 20px;
   display: flex;
   align-items: center;
@@ -54,12 +52,12 @@ header {
 }
 
 .nav-links li {
-  margin: 0 15px;
+  margin: 0 5px;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: #333;
   font-size: 18px;
   padding: 8px 12px;
   transition: all 0.3s ease-in-out;
@@ -69,6 +67,7 @@ header {
 .nav-links a:hover {
   background: #555;
   border-radius: 5px;
+  color: white;
 }
 
 .nav-links a.active {
@@ -231,7 +230,49 @@ header {
   color: #25302c;
 }
 
+footer {
+  margin-bottom: 100px !important;
+  padding-top: 100px;
+  justify-content: space-between;
+  gap: 30px;
+}
 
+.footer-col {
+  flex: 1;
+  /* Each column takes equal space */
+  max-width: 25%;
+  /* Ensures 4 columns */
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.footer-title {
+  font-size: 16px;
+  color: #495E57;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #495e57;
+  display: block;
+  height: 30px;
+}
+
+.footer-menu ul li a:hover {
+  color: #2b3834;
+}
+
+.footer-contact p {
+  color: #495e57;
+  margin-bottom: 10px;
+}
+
+.address-line p {
+  color: black;
+}
 
 .flex {
   display: flex;
