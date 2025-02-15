@@ -105,28 +105,30 @@ header {
 
 .hero-desc {
   width: 60%;
-  padding: 40px;
+  padding: 40px 40px 40px 0px;
 }
 
 .hero-desc p {
   color: white;
   line-height: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 
-.reserveBtn {
+.yellowBtn {
   border: 0px;
   outline: none;
   background: #f4ce14;
-  padding: 0.8em 1.5em 1em 1.5em;
+  padding: 10px 15px 10px 15px;
   font-size: 1.2em;
-  border-radius: 1.5em;
+  border-radius: 5px;
   cursor: pointer;
-  margin-top: 1em;
 }
 
-.reserveBtn:hover {
-  background: #dab605;
+.yellowBtn:hover {
+  background: #495e57;
+  border: 1px solid white;
+  color: white;
 }
 
 
@@ -134,7 +136,7 @@ header {
   height: 300px;
   border-radius: 10px;
   margin-top: 40px;
-  margin-left: 300px;
+  margin-left: 50px;
 }
 
 .hero h3 {
@@ -146,6 +148,90 @@ header {
   color: #FFFFFF;
   margin: 0;
 }
+
+
+.offer {
+  margin-top: 100px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer p {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+
+.orders {
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #edefee;
+  width: 400px;
+  border-radius: 10px;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.card-img {
+  height: 260px;
+  width: fit-content;
+}
+
+
+.card-title {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 20px;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.title-name {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+.title-price {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #EE9972;
+  margin-top: 5px;
+}
+
+.card-desc {
+  color: #495e57;
+  padding: 20px;
+  margin-top: 1em;
+  line-height: 1.8em;
+}
+
+.card-footer {
+  padding: 20px;
+  justify-content: left;
+}
+
+.card-footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #495E57;
+}
+
+.card-footer a:hover {
+  color: #25302c;
+}
+
+
 
 .flex {
   display: flex;

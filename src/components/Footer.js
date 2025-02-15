@@ -1,9 +1,13 @@
 import React from 'react'
+import logo from "../assets/images/logo.png"
 
 export default function Footer() {
     return (
-        <div>
+        <footer>
+            <div className='footer-logo'>
+                <img src={logo} alt="footer logo" />
+            </div>
 
-        </div>
+        </footer>
     )
 }
