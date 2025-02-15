@@ -78,6 +78,14 @@ export default function Main() {
                     </div>
                 </div>
             </section>
-        </main>
+
+            <section className='container flex'>
+                <div className='info-history'>
+                    <h1>Restorant History</h1>
+                    <h4>Little Lemon</h4>
+                    <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+                </div>
+            </section>
+        </main >
     )
 }
