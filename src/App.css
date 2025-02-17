@@ -126,7 +126,7 @@ header {
 
 .yellowBtn:hover {
   background: #495e57;
-  border: 1px solid white;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.8);
   color: white;
 }
 
@@ -403,9 +403,20 @@ footer a {
     position: absolute;
     top: 70px;
     right: 0;
-    background: #333;
+    background: #495E57;
     width: 100%;
     text-align: center;
+  }
+
+  .nav-links a {
+    display: block;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links a:hover {
+    background-color: #25302c;
   }
 
   .nav-links.active {
