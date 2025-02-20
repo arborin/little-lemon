@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-export default function BookingForm() {
+export default function BookingForm(props) {
 
-    const [availableTimes] = useState(['17:00', '18:00', '19:00', '20:00', '21:00', '22:00'])
+
 
     const [formData, setFormData] = useState({
         fullName: '',
@@ -25,10 +25,10 @@ export default function BookingForm() {
 
 
     return (
-        <section onSubmit={handleSubmit} className='container form-card'>
+        <section className='container form-card'>
             <h1>Please fill in the form below accurately to enable us serve you nicely.</h1>
             <div className='booking-form'>
-                <form style={{ "display": "grid", "max-width": "400px", "gap": "20px" }}>
+                <form onSubmit={handleSubmit} style={{ "display": "grid", "maxWidth": "400px", "gap": "20px" }}>
                     <div className='input-group'>
                         <label htmlFor="res-date">Full Name:</label>
                         <input type="text" onChange={formChange} name="fullName" id="full_name" />
@@ -44,8 +44,8 @@ export default function BookingForm() {
                     <div className='input-group'>
                         <label htmlFor="res-time">Choose time</label>
                         <select id="res-time" onChange={formChange} name='time'>
-                            {availableTimes.map((time) => {
-                                return <option>{time}</option>
+                            {props.availableTimes.map((time) => {
+                                return <option key={time}>{time}</option>
                             })}
                         </select>
                     </div>

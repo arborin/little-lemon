@@ -5,8 +5,18 @@
   box-sizing: border-box;
 }
 
+/* html {
+  overflow-y: scroll;
+} */
+
 body {
   font-family: Arial, sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-y: scroll;
 }
 
 .container {
@@ -406,7 +416,6 @@ label {
   }
 
   .nav-links {
-    display: none;
     flex-direction: column;
     width: 100%;
     background: #333;
@@ -415,6 +424,11 @@ label {
     left: 0;
     text-align: center;
   }
+
+  .hide {
+    display: none;
+  }
+
 
   .nav-links.active {
     display: flex;
@@ -474,7 +488,6 @@ label {
   }
 
   .nav-links {
-    display: none;
     flex-direction: column;
     position: absolute;
     top: 70px;
