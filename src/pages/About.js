@@ -1,9 +1,10 @@
 import React from 'react'
+import History from '../components/History'
 
 export default function About() {
     return (
-        <section className='container form-card'>
-            <h1>About.</h1>
+        <section className='container'>
+            <History />
         </section>
     )
 }

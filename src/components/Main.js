@@ -12,7 +12,7 @@ export default function Main() {
                         <h1>Little Lemon</h1>
                         <h3>Chicago</h3>
                         <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                        <button className="yellowBtn">Reserve a table</button>
+                        <Link to="booking" className="yellowBtn">Reserve a table</Link>
                     </div>
                     <div className='hero-img'>
                         <img src={heroImg} alt='hero img' />
@@ -22,7 +22,7 @@ export default function Main() {
             <section className='offer container flex'>
 
                 <p>Special offer</p>
-                <button className="yellowBtn">Online Menu</button>
+                <Link to='menu' className="yellowBtn">Online Menu</Link>
 
             </section>
             <section className='container orders flex'>
