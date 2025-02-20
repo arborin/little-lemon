@@ -231,10 +231,12 @@ header {
 }
 
 footer {
-  margin-bottom: 100px !important;
+  margin-top: 100px !important;
   padding-top: 100px;
+  padding-bottom: 100px;
   justify-content: space-between;
   gap: 30px;
+  background-color: #edefee;
 }
 
 .footer-col {
@@ -259,6 +261,10 @@ footer a {
   color: #495e57;
   display: block;
   height: 30px;
+}
+
+footer {
+  list-style-type: decimal;
 }
 
 .footer-menu ul li a:hover {
@@ -308,6 +314,76 @@ footer a {
   background: #333;
   margin: 5px 0;
   transition: 0.3s;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fcfff3;
+  padding: 60px 0px;
+  justify-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f4ce14
+}
+
+.form-card h1 {
+  margin-bottom: 50px;
+  color: #25302c;
+}
+
+
+.booking-form {
+  width: 450px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  color: #333;
+  background-color: #f7f7f7;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  margin-inline: 0.5em;
+  width: 200px;
+}
+
+label {
+  font-family: 'Markazi', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #25302c;
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.order-btn {
+  border: 0px;
+  outline: none;
+  background: #f4ce14;
+  padding: 10px 15px 10px 15px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background: #e0bb02;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.8);
 }
 
 
