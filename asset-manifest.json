@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/little-lemon/static/css/main.0e251960.css",
+    "main.js": "/little-lemon/static/js/main.e12cda1e.js",
+    "static/media/greeksalad.jpg": "/little-lemon/static/media/greeksalad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/little-lemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "index.html": "/little-lemon/index.html",
+    "main.0e251960.css.map": "/little-lemon/static/css/main.0e251960.css.map",
+    "main.e12cda1e.js.map": "/little-lemon/static/js/main.e12cda1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e251960.css",
+    "static/js/main.e12cda1e.js"
+  ]
+}
