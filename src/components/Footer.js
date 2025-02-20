@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../assets/images/logo.png"
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -12,12 +13,11 @@ export default function Footer() {
                 <div className='footer-menu footer-col'>
                     <p className='footer-title'>Navigation</p>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Menu</a></li>
-                        <li><a href="/">Reservations</a></li>
-                        <li><a href="/">Order Online</a></li>
-                        <li><a href="/">Login</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/menu">Menu</Link></li>
+                        <li><Link to="/booking">Reservation</Link></li>
+                        <li><Link to="/order">Order Line</Link></li>
                     </ul>
                 </div>
                 <div className='footer-contact footer-col'>
@@ -32,10 +32,10 @@ export default function Footer() {
                 <div className='footer-social footer-col'>
                     <p className='footer-title'>Social Media</p>
                     <ul>
-                        <li><a href="/">Facebook</a></li>
-                        <li><a href="/">Instagram</a></li>
-                        <li><a href="/">TikTok</a></li>
-                        <li><a href="/">Twitter</a></li>
+                        <li><Link to="/">Facebook</Link></li>
+                        <li><Link to="/">Instagram</Link></li>
+                        <li><Link to="/">TikTok</Link></li>
+                        <li><Link to="/">Twitter</Link></li>
                     </ul>
                 </div>
             </div>
