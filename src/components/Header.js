@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <header>
             <div className='container menu'>
-                <div className="logo">
+                <div className="logo" id='logo'>
                     <Link to="/">
                         <img src={logo} />
                     </Link>

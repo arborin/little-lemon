@@ -402,6 +402,19 @@ label {
   box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.8);
 }
 
+.order-record {
+  margin-bottom: 30px;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  color: #2b3834
+}
+
+.order-title {
+  font-weight: bold;
+
+}
+
 
 
 /* Responsive Styles */

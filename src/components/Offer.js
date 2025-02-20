@@ -6,7 +6,7 @@ export default function Offer() {
         <>
             <section className='offer container flex'>
                 <p>Special offer</p>
-                <Link to='menu' className="yellowBtn">Online Menu</Link>
+                <Link to='menu' className="yellowBtn" data-testid="online-menu">Online Menu</Link>
             </section>
         </>
     )
